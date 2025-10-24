@@ -1,0 +1,45 @@
+<template>
+  <div>
+    <label v-if="text" :for="uuid" class="block mb-2 text-sm font-semibold text-gray-900 dark:text-white">
+      {{ text }}
+    </label>
+    <div class="relative w-full">
+      <input type="text" inputmode="decimal" :id="uuid" v-bind="$attrs" :value="modelValue" :placeholder="placeholder" @input="handleInput"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
+            focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+            dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+      <div type="button" class="absolute inset-y-0 right-0 flex items-center pr-3">
+        <h3 class="text-base text-[#9191a3]">
+          {{ cur }}
+        </h3>
+      </div>
+      <div v-if="errors" class="input-errors" v-for="error of errors">
+        <div class="error-msg text-red-600">{{ error.$message }}</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import './style.css';
+import { nanoid } from 'nanoid';
+
+const props = withDefaults(
+  defineProps<{
+    modelValue?: string,
+    uuid?: string,
+    placeholder?: string,
+    text?: string,
+    appText?: string,
+    isLastInput?: boolean,
+    cur: string,
+    errors?: any
+  }>(), { placeholder: "placeholder", uuid: `inp${nanoid()}`, text: "", appText: "", isLastInput: false });
+
+const emits = defineEmits(['update:modelValue']);
+function handleInput($ev: any) {
+  const evalue = $ev.target.value;
+  $ev.target.parentNode.dataset.replicatedValue = evalue;
+  emits('update:modelValue', evalue)
+}
+</script>

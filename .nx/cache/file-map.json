@@ -1,0 +1,209 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.8",
+  "deps": {
+    "@iconify-json/lucide": "^1.2.68",
+    "@iconify-json/simple-icons": "^1.2.54",
+    "@nuxt/ui": "^4.0.1",
+    "nuxt": "^4.1.2",
+    "nx": "18.0.8",
+    "@nuxt/eslint": "^1.9.0",
+    "eslint": "^9.37.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@manaapp/ui": [
+        {
+          "file": "app/ui/components/ActionButton.vue",
+          "hash": "5468438304689132041"
+        },
+        {
+          "file": "app/ui/components/ConfirmButtonsBand.vue",
+          "hash": "11719660286908993379"
+        },
+        {
+          "file": "app/ui/components/ConsentButtonsBand.vue",
+          "hash": "4353855295146837237"
+        },
+        {
+          "file": "app/ui/components/ManaInputCurrency.vue",
+          "hash": "10464633758792004398"
+        },
+        {
+          "file": "app/ui/components/ManaInputNumpad.vue",
+          "hash": "4071159148455901082"
+        },
+        {
+          "file": "app/ui/components/PageHeader.vue",
+          "hash": "2449713406789469070"
+        },
+        {
+          "file": "app/ui/components/shims-tsx.d.ts",
+          "hash": "10633072968584841747"
+        },
+        {
+          "file": "app/ui/components/style.css",
+          "hash": "300142482839343532"
+        },
+        {
+          "file": "app/ui/index.ts",
+          "hash": "13617019830252750252"
+        },
+        {
+          "file": "app/ui/package.json",
+          "hash": "13427556036935625532"
+        },
+        {
+          "file": "app/ui/postcss.config.cjs",
+          "hash": "11394232452058105533"
+        },
+        {
+          "file": "app/ui/scripts/ManaLib.ts",
+          "hash": "16705967109633592944"
+        },
+        {
+          "file": "app/ui/scripts/ManaLibProvider.ts",
+          "hash": "9798380103868546753"
+        },
+        {
+          "file": "app/ui/scripts/contracts/IManaLibProvider.ts",
+          "hash": "18074217632028431051"
+        },
+        {
+          "file": "app/ui/scripts/contracts/IMonetaryValue.ts",
+          "hash": "11622139616218218877"
+        },
+        {
+          "file": "app/ui/scripts/contracts/IShippingAddress.ts",
+          "hash": "10899968951239262721"
+        },
+        {
+          "file": "app/ui/scripts/contracts/IStreetAddress.ts",
+          "hash": "5239823876773210065"
+        },
+        {
+          "file": "app/ui/tailwind.config.js",
+          "hash": "4684926347856563417"
+        },
+        {
+          "file": "app/ui/test/mocks/ServerMock.ts",
+          "hash": "16196390538146472313"
+        },
+        {
+          "file": "app/ui/test/mocks/SocketMock.ts",
+          "hash": "2270771650201122740"
+        },
+        {
+          "file": "app/ui/test/playground.test.ts",
+          "hash": "3938989975422942084"
+        },
+        {
+          "file": "app/ui/test/test-env.ts",
+          "hash": "2265082293098570272"
+        },
+        {
+          "file": "app/ui/tsconfig.json",
+          "hash": "17631719798042491676"
+        },
+        {
+          "file": "app/ui/vite.config.ts",
+          "hash": "5264409979643835932"
+        },
+        {
+          "file": "app/ui/vitest.config.ts",
+          "hash": "7127783756300022404"
+        },
+        {
+          "file": "app/ui/vitest.global-setup.ts",
+          "hash": "5179412338790289424"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5385076962497618083"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "6881930873917433640"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7659802768140328695"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "785461801174024838"
+      },
+      {
+        "file": "README.md",
+        "hash": "13261713843542763465"
+      },
+      {
+        "file": "app/app.config.ts",
+        "hash": "14908397707009860430"
+      },
+      {
+        "file": "app/app.vue",
+        "hash": "2660304982509108303"
+      },
+      {
+        "file": "app/assets/css/main.css",
+        "hash": "14788576107884414289"
+      },
+      {
+        "file": "app/components/AppLogo.vue",
+        "hash": "5911849991523773974"
+      },
+      {
+        "file": "app/components/TemplateMenu.vue",
+        "hash": "7358163747077629881"
+      },
+      {
+        "file": "app/pages/index.vue",
+        "hash": "4896451481642461338"
+      },
+      {
+        "file": "app/pages/todsob.vue",
+        "hash": "16293670615320902661"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "8917848450663344213"
+      },
+      {
+        "file": "nuxt.config.ts",
+        "hash": "17679907868252311227"
+      },
+      {
+        "file": "package.json",
+        "hash": "5043520167094948335"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "15148250253972090767"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "14300691822444956770"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "11254174431594941832"
+      },
+      {
+        "file": "renovate.json",
+        "hash": "12479221254883620899"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "17758609897942843643"
+      }
+    ]
+  }
+}

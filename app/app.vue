@@ -27,7 +27,7 @@ useSeoMeta({
 
 <template>
   <UApp>
-    <UHeader>
+    <!-- <UHeader>
       <template #left>
         <NuxtLink to="/">
           <AppLogo class="w-auto h-6 shrink-0" />
@@ -36,7 +36,7 @@ useSeoMeta({
         <TemplateMenu />
       </template>
 
-      <template #right>
+<template #right>
         <UColorModeButton />
 
         <UButton
@@ -48,13 +48,15 @@ useSeoMeta({
           variant="ghost"
         />
       </template>
-    </UHeader>
+</UHeader> -->
 
-    <UMain>
+    <UMain class="p-4"> 
+      <NuxtLoadingIndicator />
+      <UNotifications />
       <NuxtPage />
     </UMain>
 
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
+    <!-- <USeparator icon="i-simple-icons-nuxtdotjs" />
 
     <UFooter>
       <template #left>
@@ -73,6 +75,6 @@ useSeoMeta({
           variant="ghost"
         />
       </template>
-    </UFooter>
+    </UFooter> -->
   </UApp>
 </template>

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @manaapp/ui",
+    "startTime": "2025-10-09T06:56:27.998Z",
+    "endTime": "2025-10-09T06:56:37.482Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@manaapp/ui:build",
+      "target": "build",
+      "projectName": "@manaapp/ui",
+      "hash": "8232581793158004682",
+      "startTime": "2025-10-09T06:56:28.011Z",
+      "endTime": "2025-10-09T06:56:37.481Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

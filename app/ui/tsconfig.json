@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta"
+    ],
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "strict": true,
+  },
+  "include": [
+    "scripts/**/*.ts",
+    "index.ts",
+    "components/**/*.vue",
+    "components/**/*.ts",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "test/**/*.ts"
+, "test/process.env"  ]
+}
